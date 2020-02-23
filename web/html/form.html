@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title test12.html></title>
+        <style media = "screen">
+            td { border: 1px solid; width: 50px; height: 10px} 
+            th { border: 1px solid; width: 50px; height: 10px} 
+        </style>
+    </head>
+    <body>
+        <div>               <!-- block level tag-->
+            <span> </span>      <!-- inline level tag-->
+        </div>
+        <form action="/receiver.html">
+            <h1>From 관련 요소</h1>
+            아이디: <input type = "text" placeholder = "영문으로만 써주세요"><br>
+            비밀번호: <input type = "password">
+            성별: 남자 <input type= "radio" name = "gender" checked>, 여자 <input type = "radio" name ="gender">
+            취미: 영화감상 <input type = "checkbox" name = "hobby" checked>, 음악감상 <input type = "checkbox" name = "hobby" checked>, 독서 <input type = "checkbox" name = "hobby" checked><br>
+            프로필 사진 업로드<input type = "file"><br>
+            사는 지역: <select>
+                <option>서울</option>
+                <option>경기</option>
+                <option>강원</option>
+                <option selected>제주</option>
+            </select><br>
+            자기 소개: <textarea cols="30" rows="5" placeholder="자기소개는 짧게 해주세요"></textarea><br>
+            <input type = "submit" value = "전송"><br>
+            <input type = "reset" value = "초기화"><br> 
+            <input type = "button" value = "등록"><br>
+            <input type = "image" src ="" alt ="" width ="" height=""><br> <!-- default = submit -->
+            <button type = "submit">전송버튼</button><br>
+            <button type = "reset">초기화버튼</button><br>
+       
+        </form>
+    </body>
+</html>

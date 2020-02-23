@@ -1,0 +1,423 @@
+*{
+    font-family: Dotum;    
+}
+div.main th{
+    border: 1px solid;
+    border-color: #d1d1d1;
+}
+div.main td{
+    border: 1px solid;
+    border-color: #d1d1d1;
+}
+
+  
+div.bar{
+    z-index: -1;
+    position: absolute;
+    height: 120px;
+    width: 100vw;
+    background-color: #000;
+}
+table.mainheader{
+    margin: auto;
+    width: 1080px;
+    height: 120px;
+    color: #fff;
+    text-align: left;
+    font-size: 40px;
+    padding-left: 40px;
+}
+  
+div.main{
+    margin: auto; 
+    width: 1080px;
+}
+
+.maintable{
+    margin: -14px -14px;
+    border-spacing: 14px;
+}
+table.maintable a{
+    color: #000;
+    text-decoration: unset;
+}
+table.maintable th{
+    font-size: 16px;
+    color: #000;
+    font-weight: normal;
+    border: 1px solid;
+    border-color: #d1d1d1;
+    background-color: #fff;
+    width: 324px;
+    height: 33px;  
+}
+.mainform:hover{
+    border-color: #454545;
+    font-weight: bold;
+}
+div.title{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #000;
+}
+hr.main{
+    margin-bottom: 40px;
+}
+div.contents{
+    padding: 40px 40px 0px 40px;
+    /* background-color: #80c83d; */
+}
+
+.outer{
+    width: 100%;
+    border-collapse: collapse;
+
+    color: #000;
+    margin-bottom: 30px;
+    /* margin: 0 40px 0 40px; */
+}
+div.contents #list{
+    margin-bottom:  40px;
+}
+div.contents th.name{
+    padding: 0 0 0 15px;
+    background-color: #f7f7f7;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    width: 1080px;
+    height: 46px;
+    text-align: left;
+}
+
+caption.contents_name{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    margin: 30px 40px 10px 0px;
+}
+
+.table, .refund{
+    margin:0 30px 30px 30px;
+    width: 940px;
+    font-size: 12px;
+    color: #555;
+    border-collapse: collapse;
+}
+
+.table th, .table td, .refund th, .refund td{
+    height: 33px;
+}
+.table thead th{
+    background-color: #fbfbfb;
+}
+.table tbody.th{
+    font-weight: bold;
+    background-color: #fff;
+}
+.table tbody td{
+    text-align: center;
+    background-color: #fff;
+}
+.refund{
+    border-top: 2px solid;
+    border-top-color: #a5a5a5;
+    border-bottom: 1px solid;
+    border-bottom-color: #e4e4e4;
+    font-size: 12px;
+    font: #555;
+}
+.refund thead{
+    background-color: #fbfbfb;
+}
+.refund thead th{
+    border-left: none;
+    border-right: none;
+}
+.refund td{
+    border-left: none;
+    border-right: none;
+}
+.refund thead th, .refund tbody th{
+    font-weight: normal;
+}
+.refund tbody th{
+    border: none;
+}
+.refund tbody td{
+    border: none;
+    text-align: right;
+    padding-right: 8%;
+}
+.refund tfoot th, .refund tfoot td{
+    border-top: 1px solid;
+    border-top-color: #a5a5a5;
+    border-bottom: 1px solid;
+    border-bottom-color: #e4e4e4;
+    border-left: none;
+    border-right: none;
+}
+.refund tfoot td{
+    text-align: right;
+    font-weight: bold;
+    padding-right: 8%;
+}
+
+
+.form{
+    margin:0 30px 30px 30px;
+    width: 940px;
+    font-size: 12px;
+    color: #555;
+    border-collapse: collapse;
+}
+
+div.inner{
+    background-color: #fbfbfb;
+    padding: 10px 20px;
+}
+label{
+    width: 100%;
+    display: inline-block;
+    margin: 15px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+input[type="text"], input[type="password"]{
+    width: 100%;
+    border: 1px solid; 
+    border-color: #e4e4e4;
+    height: 33px;
+}
+#phonenumber{
+    margin: 0;
+    padding: 0;
+    width: 83%;
+
+}
+button{
+    width: 16%;
+    height: 33px;
+    border: 1px solid;
+    border-color: #08a600;
+    background-color: #4ec53d;
+    color: #fff;
+    font-size: 12px;
+    float: right;
+}
+#enroll{
+    width: 100%;
+    height: 33px;
+}
+#hello{
+    height: 100px;
+    font-size: 16px;
+}
+select{
+    border: 1px solid; 
+    border-color: #e4e4e4;
+    width: 33%;
+    height: 33px;
+}
+span.radio{
+    font-size: 12px;
+    margin-right: 50px;
+}
+
+/* div.list{
+    padding: 10px 20px;
+    border: 1px solid;
+    border-color: #e4e4e4;
+} */
+
+
+.list{
+    width: 940px;
+    margin: 0 30px 30px 30px;
+    font-size: 12px;
+    color: #555;
+}
+.list td{
+    padding: 20px;
+}
+
+.search{
+    margin: 0 30px 30px 30px;
+    font-size: 12px;
+    color: #555;
+    width: 200px;
+}
+.search td{
+    padding: 20px 20px 10px 20px;
+}
+.projectHeader{
+    font-size: 32px;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    padding: 50px 0;
+}
+.project{
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+}
+.projectName{
+    font-size: 12px;
+    color: #559bfa;
+}
+.projectDes{
+    font-size: 12px;
+    color: #000;
+}
+
+.search th{
+    width: 17px;
+    height: 17px;
+    border: 1px solid;
+    border-color: #e0e0e0;
+    font: 10px;
+    color: #666;
+}
+.searchBox{
+    display: inline-block;
+    border: 1px solid;
+    border-color: #e0e0e0;
+    width: 17px;
+    height: 17px;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.searchingWord{
+    font: 12px;
+    color: #000;
+    text-decoration: unset;
+}
+.searchingWord :hover{
+    text-decoration: underline;
+}
+
+li.cookie{
+    font: 12px;
+    margin-bottom: 5px;
+}
+.cookieKeyWord{
+    font-weight: bold;
+    color: #559bfa;
+}
+.cookieKeySentence{
+    font-weight: bold;
+    color: #000;
+}
+span.cookie{
+    color: #000;
+}
+.cookiewarning{
+    color: #ec5336;
+}
+.cookieLink{
+    color: #559bfa;
+    text-decoration: underline;
+    margin-left: 16px;
+}
+.cookieLink2{
+    color: #559bfa;
+    text-decoration: underline;
+    margin-left: 16px;
+}
+
+
+a.news{
+    font-size: 14px;
+    color: #00c;
+    font-weight: bold;
+    text-decoration: underline;
+}
+span.news{
+    font-size: 12px;
+    color: #000;
+}
+img.news{
+    float: left;
+    margin-right: 10px;
+}
+.newsTopic{
+    font: 14px;
+    color: #00c;
+    font-weight: bold;
+    text-decoration: underline;
+}
+div.news{
+    font-size: 12px;
+    color: #000;
+    height: 20px;
+    display: table;
+}
+div.news_contents{
+    height: 100%;
+    vertical-align: middle;
+    display: table-cell
+}
+hr.news{
+    border: 0;
+    height: 1px;
+    background-color: #d1d1d1;  
+    margin: 10px 0px;
+}
+
+table.webtoon{
+    /* padding: 0 40px;
+        width: 920px; */
+    width: 940px;
+    margin: 0 30px 30px 30px;
+    font-size: 12px;
+    color: #555;
+}
+div.webtoon{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+span.webtoonName{
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+}
+span.webtoonTitle{
+    font-size: 12px;
+    color: #000;
+}
+div.cuttoon{
+    display: inline-block;
+    border: 1px solid;
+    border-color: #71b036;
+    background-color: #80c83d;
+    font-size: 10px;
+    color: #fff;
+}
+div.smarttoon{
+    margin: auto;
+    display: inline-block;
+    border: 1px solid;
+    border-color: #df4e28;
+    background-color: #ec5336;
+    font-size: 10px;
+    color: #fff;
+}
+
+
+
+div.bottom{
+    text-align: center;
+    font-size: 12px;
+}
+div.bottom p.address{
+    color: #999;
+}
+div.bottom p.copyright{
+    color: #000;
+}
+  

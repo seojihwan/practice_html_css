@@ -16,4 +16,4 @@ design responsive web ui
 
 ## Authors
 
-* **Seo Jihwan** - *Initial work* - [Seo Jihwan](https://github.com/seojihwan)
+* **Seo Jihwan**  - [Seo Jihwan](https://github.com/seojihwan)
